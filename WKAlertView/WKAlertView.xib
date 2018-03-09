@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ysA-8M-dbv" customClass="WKAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="211" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haha.png" translatesAutoresizingMaskIntoConstraints="NO" id="Svr-le-tX2">
+                    <rect key="frame" x="75" y="5" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="KQv-cq-ZTq"/>
+                        <constraint firstAttribute="height" constant="60" id="KWS-5g-8ra"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBT-BD-UvO">
+                    <rect key="frame" x="0.0" y="125" width="105.66666666666667" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="JgO-As-WVW"/>
+                    </constraints>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" title="取消" backgroundImage="取消-点击选中.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNv-cm-WJ7">
+                    <rect key="frame" x="105.66666666666669" y="125" width="105.33333333333331" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="cWc-va-afJ"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="selected" title="确定" backgroundImage="确定-点击选中">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" title="确定" backgroundImage="确定-点击选中">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6H-on-2vU" userLabel="hengxian">
+                    <rect key="frame" x="5" y="124" width="201" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="YD2-Va-JQh"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主题发布后不可删除，您确定发布么？" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OP6-3u-hx4">
+                    <rect key="frame" x="20" y="61" width="171" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="nUt-Kf-8q7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gC7-rd-zY3" userLabel="shuxian">
+                    <rect key="frame" x="105.66666666666667" y="125" width="1" height="45"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="8ew-wb-nXk"/>
+                        <constraint firstAttribute="height" constant="45" id="i5y-J5-zQw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XBT-BD-UvO" firstAttribute="leading" secondItem="ysA-8M-dbv" secondAttribute="leading" id="0ny-6J-7O6"/>
+                <constraint firstItem="q6H-on-2vU" firstAttribute="leading" secondItem="ysA-8M-dbv" secondAttribute="leading" constant="5" id="E4A-ya-Jfk"/>
+                <constraint firstAttribute="bottom" secondItem="nNv-cm-WJ7" secondAttribute="bottom" id="EcY-lU-4T6"/>
+                <constraint firstItem="Svr-le-tX2" firstAttribute="centerX" secondItem="ysA-8M-dbv" secondAttribute="centerX" id="IuN-kB-P1W"/>
+                <constraint firstItem="OP6-3u-hx4" firstAttribute="centerY" secondItem="ysA-8M-dbv" secondAttribute="centerY" constant="5" id="Lms-r3-rpQ"/>
+                <constraint firstAttribute="trailing" secondItem="OP6-3u-hx4" secondAttribute="trailing" constant="20" id="OTH-vV-l9O"/>
+                <constraint firstAttribute="trailing" secondItem="q6H-on-2vU" secondAttribute="trailing" constant="5" id="QSb-Gi-PaI"/>
+                <constraint firstItem="Svr-le-tX2" firstAttribute="top" secondItem="ysA-8M-dbv" secondAttribute="top" constant="5" id="Tam-9t-H5v"/>
+                <constraint firstAttribute="bottom" secondItem="gC7-rd-zY3" secondAttribute="bottom" id="X3x-oC-WrY"/>
+                <constraint firstItem="gC7-rd-zY3" firstAttribute="leading" secondItem="XBT-BD-UvO" secondAttribute="trailing" id="YPy-Pc-RDZ"/>
+                <constraint firstAttribute="bottom" secondItem="q6H-on-2vU" secondAttribute="bottom" constant="45" id="YYf-2A-OHw"/>
+                <constraint firstItem="nNv-cm-WJ7" firstAttribute="width" secondItem="XBT-BD-UvO" secondAttribute="width" id="eEx-wt-qDG"/>
+                <constraint firstAttribute="trailing" secondItem="nNv-cm-WJ7" secondAttribute="trailing" id="eME-ah-4ay"/>
+                <constraint firstItem="q6H-on-2vU" firstAttribute="top" secondItem="OP6-3u-hx4" secondAttribute="bottom" constant="5" id="gak-9m-2SK"/>
+                <constraint firstAttribute="bottom" secondItem="XBT-BD-UvO" secondAttribute="bottom" id="imM-6D-DSP"/>
+                <constraint firstItem="nNv-cm-WJ7" firstAttribute="leading" secondItem="XBT-BD-UvO" secondAttribute="trailing" id="obt-zY-te3"/>
+                <constraint firstItem="OP6-3u-hx4" firstAttribute="leading" secondItem="ysA-8M-dbv" secondAttribute="leading" constant="20" id="roR-Ti-Ozb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                    <color key="value" red="0.57473160153977609" green="0.18893516056755388" blue="0.75732166230366493" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                    <integer key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="cancelBtn" destination="XBT-BD-UvO" id="bQL-u9-MZI"/>
+                <outlet property="picture" destination="Svr-le-tX2" id="R9K-Bl-W3R"/>
+                <outlet property="titleLabel" destination="OP6-3u-hx4" id="AE8-2L-xge"/>
+                <outlet property="verifyBtn" destination="nNv-cm-WJ7" id="mky-HJ-Xgj"/>
+                <outlet property="widthConstraint" destination="eEx-wt-qDG" id="IWT-Nb-Uyj"/>
+            </connections>
+            <point key="canvasLocation" x="-108.5" y="-394"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="haha.png" width="1024" height="1024"/>
+        <image name="取消-点击选中.png" width="104" height="40"/>
+        <image name="确定-点击选中" width="105" height="40"/>
+    </resources>
+</document>

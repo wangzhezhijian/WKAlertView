@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WKAlertView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    WKAlertView *alert = [[WKAlertView alloc]initWithTitle:@"哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈" picture:@"haha" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定"];
+    alert.layerBorderColor = [UIColor redColor];
+    alert.delegate = self;
+    //    alert.fontSize = 18;
+    [self.view addSubview:alert];
 }
 
 

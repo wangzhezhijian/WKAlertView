@@ -13,6 +13,10 @@
 		60B14F7F205264E900654AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B14F7E205264E900654AF6 /* Assets.xcassets */; };
 		60B14F82205264E900654AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B14F80205264E900654AF6 /* LaunchScreen.storyboard */; };
 		60B14F85205264E900654AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B14F84205264E900654AF6 /* main.m */; };
+		60B14F8E2052651E00654AF6 /* WKAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B14F8C2052651E00654AF6 /* WKAlertView.xib */; };
+		60B14F8F2052651E00654AF6 /* WKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B14F8D2052651E00654AF6 /* WKAlertView.m */; };
+		60B14F922052652B00654AF6 /* CALayer+XibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B14F902052652A00654AF6 /* CALayer+XibConfiguration.m */; };
+		60B14F94205265DE00654AF6 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B14F93205265DE00654AF6 /* haha.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		60B14F81205264E900654AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60B14F83205264E900654AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B14F84205264E900654AF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60B14F8B2052651E00654AF6 /* WKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKAlertView.h; sourceTree = "<group>"; };
+		60B14F8C2052651E00654AF6 /* WKAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKAlertView.xib; sourceTree = "<group>"; };
+		60B14F8D2052651E00654AF6 /* WKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKAlertView.m; sourceTree = "<group>"; };
+		60B14F902052652A00654AF6 /* CALayer+XibConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XibConfiguration.m"; sourceTree = "<group>"; };
+		60B14F912052652B00654AF6 /* CALayer+XibConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XibConfiguration.h"; sourceTree = "<group>"; };
+		60B14F93205265DE00654AF6 /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				60B14F76205264E900654AF6 /* AppDelegate.m */,
 				60B14F78205264E900654AF6 /* ViewController.h */,
 				60B14F79205264E900654AF6 /* ViewController.m */,
+				60B14F8B2052651E00654AF6 /* WKAlertView.h */,
+				60B14F8D2052651E00654AF6 /* WKAlertView.m */,
+				60B14F8C2052651E00654AF6 /* WKAlertView.xib */,
+				60B14F912052652B00654AF6 /* CALayer+XibConfiguration.h */,
+				60B14F902052652A00654AF6 /* CALayer+XibConfiguration.m */,
+				60B14F93205265DE00654AF6 /* haha.png */,
 				60B14F7B205264E900654AF6 /* Main.storyboard */,
 				60B14F7E205264E900654AF6 /* Assets.xcassets */,
 				60B14F80205264E900654AF6 /* LaunchScreen.storyboard */,
@@ -130,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B14F82205264E900654AF6 /* LaunchScreen.storyboard in Resources */,
+				60B14F94205265DE00654AF6 /* haha.png in Resources */,
+				60B14F8E2052651E00654AF6 /* WKAlertView.xib in Resources */,
 				60B14F7F205264E900654AF6 /* Assets.xcassets in Resources */,
 				60B14F7D205264E900654AF6 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B14F7A205264E900654AF6 /* ViewController.m in Sources */,
+				60B14F8F2052651E00654AF6 /* WKAlertView.m in Sources */,
+				60B14F922052652B00654AF6 /* CALayer+XibConfiguration.m in Sources */,
 				60B14F85205264E900654AF6 /* main.m in Sources */,
 				60B14F77205264E900654AF6 /* AppDelegate.m in Sources */,
 			);
